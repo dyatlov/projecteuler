@@ -17,8 +17,6 @@ for i in 0...1000 do
 	checknumber i
 end
 
-sum = 0
-
 sumofarray = $arrayofnums.reduce :+
 
 puts sumofarray
