@@ -6,7 +6,7 @@ num = 600851475143
 i = 1
 
 def is_prime n
-	for d in 2..(n - 1)
+	for d in 2..Math.sqrt(n) # square root is enough and it will speed up your program many times up
 		if (n % d) == 0
 			return false
 		end
